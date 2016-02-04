@@ -1,0 +1,211 @@
+I, [2016-02-04T15:57:27.558918 #6354]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-02-04 15:57:27 +0700
+I, [2016-02-04T15:57:27.566079 #6354]  INFO -- : Processing by MoviesController#index as HTML
+E, [2016-02-04T15:57:27.583395 #6354] ERROR -- : SQLite3::SQLException: no such table: movies: SELECT "movies".* FROM "movies"  WHERE (released_on <= '2016-02-04 08:57:27.574078')  ORDER BY released_on desc
+I, [2016-02-04T15:57:27.584519 #6354]  INFO -- :   Rendered movies/index.html.erb within layouts/application (2.7ms)
+I, [2016-02-04T15:57:27.584639 #6354]  INFO -- : Completed 500 Internal Server Error in 18ms
+F, [2016-02-04T15:57:27.585898 #6354] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: movies: SELECT "movies".* FROM "movies"  WHERE (released_on <= '2016-02-04 08:57:27.574078')  ORDER BY released_on desc):
+    1: <ul id="movies">
+    2:   <% @movies.each do |movie| %>
+    3:     <li>
+    4:       <article class="movie">
+    5:         <header>
+  app/views/movies/index.html.erb:2:in `_app_views_movies_index_html_erb__4474322449377423644_70333236857660'
+
+
+I, [2016-02-04T15:57:47.170839 #6354]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-02-04 15:57:47 +0700
+I, [2016-02-04T15:57:47.171555 #6354]  INFO -- : Processing by MoviesController#index as HTML
+E, [2016-02-04T15:57:47.172580 #6354] ERROR -- : SQLite3::SQLException: no such table: movies: SELECT "movies".* FROM "movies"  WHERE (released_on <= '2016-02-04 08:57:47.171758')  ORDER BY released_on desc
+I, [2016-02-04T15:57:47.173610 #6354]  INFO -- :   Rendered movies/index.html.erb within layouts/application (1.4ms)
+I, [2016-02-04T15:57:47.173675 #6354]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2016-02-04T15:57:47.174726 #6354] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: movies: SELECT "movies".* FROM "movies"  WHERE (released_on <= '2016-02-04 08:57:47.171758')  ORDER BY released_on desc):
+    1: <ul id="movies">
+    2:   <% @movies.each do |movie| %>
+    3:     <li>
+    4:       <article class="movie">
+    5:         <header>
+  app/views/movies/index.html.erb:2:in `_app_views_movies_index_html_erb__4474322449377423644_70333236857660'
+
+
+I, [2016-02-04T15:58:11.129230 #6361]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-02-04 15:58:11 +0700
+I, [2016-02-04T15:58:11.135100 #6361]  INFO -- : Processing by MoviesController#index as HTML
+E, [2016-02-04T15:58:11.148225 #6361] ERROR -- : SQLite3::SQLException: no such table: movies: SELECT "movies".* FROM "movies"  WHERE (released_on <= '2016-02-04 08:58:11.142344')  ORDER BY released_on desc
+I, [2016-02-04T15:58:11.149213 #6361]  INFO -- :   Rendered movies/index.html.erb within layouts/application (2.2ms)
+I, [2016-02-04T15:58:11.149315 #6361]  INFO -- : Completed 500 Internal Server Error in 14ms
+F, [2016-02-04T15:58:11.150502 #6361] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: movies: SELECT "movies".* FROM "movies"  WHERE (released_on <= '2016-02-04 08:58:11.142344')  ORDER BY released_on desc):
+    1: <ul id="movies">
+    2:   <% @movies.each do |movie| %>
+    3:     <li>
+    4:       <article class="movie">
+    5:         <header>
+  app/views/movies/index.html.erb:2:in `_app_views_movies_index_html_erb__643408260193666831_70096256669800'
+
+
+I, [2016-02-04T15:58:40.659024 #6363]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-02-04 15:58:40 +0700
+I, [2016-02-04T15:58:40.664665 #6363]  INFO -- : Processing by MoviesController#index as HTML
+E, [2016-02-04T15:58:40.679026 #6363] ERROR -- : SQLite3::SQLException: no such table: movies: SELECT "movies".* FROM "movies"  WHERE (released_on <= '2016-02-04 08:58:40.671679')  ORDER BY released_on desc
+I, [2016-02-04T15:58:40.680002 #6363]  INFO -- :   Rendered movies/index.html.erb within layouts/application (2.2ms)
+I, [2016-02-04T15:58:40.680097 #6363]  INFO -- : Completed 500 Internal Server Error in 15ms
+F, [2016-02-04T15:58:40.681215 #6363] FATAL -- : 
+ActionView::Template::Error (SQLite3::SQLException: no such table: movies: SELECT "movies".* FROM "movies"  WHERE (released_on <= '2016-02-04 08:58:40.671679')  ORDER BY released_on desc):
+    1: <ul id="movies">
+    2:   <% @movies.each do |movie| %>
+    3:     <li>
+    4:       <article class="movie">
+    5:         <header>
+  app/views/movies/index.html.erb:2:in `_app_views_movies_index_html_erb__1238324672786739431_70228187970840'
+
+
+I, [2016-02-04T15:59:53.424922 #6368]  INFO -- : Migrating to CreateMovies (20121121163535)
+I, [2016-02-04T15:59:53.431709 #6368]  INFO -- : Migrating to AddFieldsToMovies (20121121180707)
+I, [2016-02-04T15:59:53.435128 #6368]  INFO -- : Migrating to AddMoreFieldsToMovies (20121210234158)
+I, [2016-02-04T15:59:53.438841 #6368]  INFO -- : Migrating to CreateReviews (20160203025824)
+I, [2016-02-04T16:00:31.199550 #6379]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-02-04 16:00:31 +0700
+I, [2016-02-04T16:00:31.205261 #6379]  INFO -- : Processing by MoviesController#index as HTML
+I, [2016-02-04T16:00:31.218416 #6379]  INFO -- :   Rendered movies/index.html.erb within layouts/application (1.3ms)
+I, [2016-02-04T16:00:31.220669 #6379]  INFO -- :   Rendered layouts/_header.html.erb (0.4ms)
+I, [2016-02-04T16:00:31.222188 #6379]  INFO -- :   Rendered layouts/_sidebar.html.erb (0.4ms)
+I, [2016-02-04T16:00:31.223358 #6379]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2016-02-04T16:00:31.223551 #6379]  INFO -- : Completed 200 OK in 18ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+I, [2016-02-04T16:00:31.308686 #6379]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2016-02-04 16:00:31 +0700
+F, [2016-02-04T16:00:31.309795 #6379] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+I, [2016-02-04T16:00:31.316363 #6379]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2016-02-04 16:00:31 +0700
+F, [2016-02-04T16:00:31.317115 #6379] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+I, [2016-02-04T16:00:45.421005 #6379]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-02-04 16:00:45 +0700
+I, [2016-02-04T16:00:45.421599 #6379]  INFO -- : Processing by MoviesController#index as HTML
+I, [2016-02-04T16:00:45.422778 #6379]  INFO -- :   Rendered movies/index.html.erb within layouts/application (0.4ms)
+I, [2016-02-04T16:00:45.423328 #6379]  INFO -- :   Rendered layouts/_header.html.erb (0.1ms)
+I, [2016-02-04T16:00:45.423564 #6379]  INFO -- :   Rendered layouts/_sidebar.html.erb (0.1ms)
+I, [2016-02-04T16:00:45.423698 #6379]  INFO -- :   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2016-02-04T16:00:45.423835 #6379]  INFO -- : Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+I, [2016-02-04T16:00:45.509374 #6379]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2016-02-04 16:00:45 +0700
+F, [2016-02-04T16:00:45.510019 #6379] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+I, [2016-02-04T16:00:45.511288 #6379]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2016-02-04 16:00:45 +0700
+F, [2016-02-04T16:00:45.512502 #6379] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Lois/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+I, [2016-02-04T16:10:43.849497 #6426]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-02-04 16:10:43 +0700
+I, [2016-02-04T16:10:43.855074 #6426]  INFO -- : Processing by MoviesController#index as HTML
+I, [2016-02-04T16:10:43.870390 #6426]  INFO -- :   Rendered movies/index.html.erb within layouts/application (1.5ms)
+I, [2016-02-04T16:10:43.872808 #6426]  INFO -- :   Rendered layouts/_header.html.erb (0.5ms)
+I, [2016-02-04T16:10:43.874258 #6426]  INFO -- :   Rendered layouts/_sidebar.html.erb (0.4ms)
+I, [2016-02-04T16:10:43.875408 #6426]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2016-02-04T16:10:43.875605 #6426]  INFO -- : Completed 200 OK in 20ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+I, [2016-02-04T16:10:51.935488 #6426]  INFO -- : Started GET "/movies/new" for 127.0.0.1 at 2016-02-04 16:10:51 +0700
+I, [2016-02-04T16:10:51.936548 #6426]  INFO -- : Processing by MoviesController#new as HTML
+I, [2016-02-04T16:10:51.949203 #6426]  INFO -- :   Rendered shared/_errors.html.erb (0.5ms)
+I, [2016-02-04T16:10:51.965563 #6426]  INFO -- :   Rendered movies/_form.html.erb (23.8ms)
+I, [2016-02-04T16:10:51.965648 #6426]  INFO -- :   Rendered movies/new.html.erb within layouts/application (25.6ms)
+I, [2016-02-04T16:10:51.966096 #6426]  INFO -- :   Rendered layouts/_header.html.erb (0.1ms)
+I, [2016-02-04T16:10:51.966345 #6426]  INFO -- :   Rendered layouts/_sidebar.html.erb (0.1ms)
+I, [2016-02-04T16:10:51.966467 #6426]  INFO -- :   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2016-02-04T16:10:51.966637 #6426]  INFO -- : Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.3ms)
+I, [2016-02-04T16:12:16.083094 #6436]  INFO -- : Started GET "/movies/new" for 127.0.0.1 at 2016-02-04 16:12:16 +0700
+I, [2016-02-04T16:12:16.089367 #6436]  INFO -- : Processing by MoviesController#new as HTML
+I, [2016-02-04T16:12:16.109247 #6436]  INFO -- :   Rendered shared/_errors.html.erb (0.4ms)
+I, [2016-02-04T16:12:16.116135 #6436]  INFO -- :   Rendered movies/_form.html.erb (14.1ms)
+I, [2016-02-04T16:12:16.116209 #6436]  INFO -- :   Rendered movies/new.html.erb within layouts/application (15.5ms)
+I, [2016-02-04T16:12:16.118248 #6436]  INFO -- :   Rendered layouts/_header.html.erb (0.3ms)
+I, [2016-02-04T16:12:16.119546 #6436]  INFO -- :   Rendered layouts/_sidebar.html.erb (0.4ms)
+I, [2016-02-04T16:12:16.121149 #6436]  INFO -- :   Rendered layouts/_footer.html.erb (0.7ms)
+I, [2016-02-04T16:12:16.121494 #6436]  INFO -- : Completed 200 OK in 32ms (Views: 23.4ms | ActiveRecord: 0.5ms)
