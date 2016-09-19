@@ -1,8 +1,8 @@
 == README
 
-This is a simple [IMDB clone](http://www.imdb.com)
+This is a simple [IMDB clone](https://www.imdb.com)
 Created to learn more programming skills.
 Gave me some valuable insight into how MVC works, Git, CRUD, REST, and numerous other skills.
 
 
-<tt>rake doc:app</tt>.
+<tt>PrimeTimeTran</tt>.
